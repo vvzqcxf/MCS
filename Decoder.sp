@@ -146,7 +146,7 @@ Xmain a0 a1 a2 a3 a4 a5 clk
 .param supply = 0.7V
 VVDD VDD GND supply
 //clock for 1GHz wuth 50% duty cycle and 0.05ns rise and fall time
-Vclk preclk GND PULSE(0 supply 0.45n 0.05n 0.05n 0.5n 1n)
+Vclk preclk GND PULSE(0 supply 0.45n 0.05n 0.05n 0.45n 1n)
 //6bits address input signals
 Vaddr0 A[0] GND PULSE(0 supply 0.95n 0.05n 0.05n 0.95n 2n)
 Vaddr1 A[1] GND PULSE(0 supply 1.95n 0.05n 0.05n 1.95n 4n)
