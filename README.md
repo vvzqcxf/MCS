@@ -4,7 +4,7 @@ This project demonstrates how to solve the **Vertex Cover Problem (VCP)** using 
 
 ## Problem Description
 
-The Vertex Cover Problem is a classical NP-complete problem. Given an undirected graph \( G = (V, E) \), the goal is to find a subset \( C \subseteq V \) such that every edge \( (u, v) \in E \) has at least one endpoint in \( C \).
+The Vertex Cover Problem is a classical NP-complete problem. Given an undirected graph $G = (V, E)$, the goal is to find a subset $C \subseteq V$ such that every edge $(u, v) \in E$ has at least one endpoint in $C$.
 
 In this project, we model VCP as a **Quadratic Unconstrained Binary Optimization (QUBO)** problem and use **SimulatedAnnealingSampler** to find an approximate minimum vertex cover.
 
