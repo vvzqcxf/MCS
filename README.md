@@ -45,7 +45,7 @@ from pyqubo import Binary
 import networkx as nx
 ```
 
-## Data Loading & Graph Construction
+## Graph Construction
 
 The following code reads a `.mis` format file (e.g., `keller6.mis`) and constructs a graph object using the `networkx` library.
 
@@ -74,6 +74,7 @@ G.add_edges_from(instance)
 ## QUBO Formulation and Quantum Annealing
 
 This section formulates the Vertex Cover Problem as a QUBO (Quadratic Unconstrained Binary Optimization) model and solves it using a simulated quantum annealer.
+You can add any penalty weights to A_list, and the code will evaluate each of them using a for loop.
 
 ```python
 def is_valid_cover(G, cover):
@@ -94,7 +95,6 @@ for A in A_list:
     for u, v in G.edges():
         H += A * (1 - x[u] - x[v] + x[u] * x[v])
 
-    # 將目標函數編譯成 QUBO 矩陣
     model = H.compile()
     Q, offset = model.to_qubo()
 
