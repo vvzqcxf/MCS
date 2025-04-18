@@ -16,8 +16,8 @@ The QUBO objective function is defined as:
 
 $H(x) = \sum_{i \in V} x_i + A \sum_{(u,v) \in E} (1 - x_u - x_v + x_u x_v)$
 
-- \( x_i = 1 \) if vertex \( i \) is included in the cover, 0 otherwise.
-- \( A \) is a penalty coefficient ensuring constraint satisfaction.
+-$ x_i = 1 $ if vertex $ i $ is included in the cover, 0 otherwise.
+-$ A $ is a penalty coefficient ensuring constraint satisfaction.
 
 
 
