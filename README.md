@@ -44,12 +44,12 @@ This means the shortest route has cost 80 and visits cities in the order: 0 → 
 
 ---
 ## 🛠 How to Run
-### 🔹 Requirements
+###  Requirements
 
 - Python 3.x  
 - No external libraries required
 
-### 🔹 Execution
+###  Execution
 
 You can run the program directly in the terminal:
 
