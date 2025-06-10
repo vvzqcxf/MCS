@@ -55,10 +55,3 @@ This means the shortest route has cost 80 and visits cities in the order: 0 → 
 
 ---
 
-## 🧾 How to Run
-
-Make sure you have Python 3 installed. Then run:
-
-```bash
-python tsp_branch_and_bound.py
-
