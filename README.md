@@ -29,11 +29,11 @@ This significantly reduces the number of paths to evaluate compared to naive enu
 
 ### Input Format
 
-n
-d[0][0] d[0][1] ... d[0][n-1]
-d[1][0] d[1][1] ... d[1][n-1]
-...
-d[n-1][0] d[n-1][1] ... d[n-1][n-1]
+n  
+d[0][0] d[0][1] ... d[0][n-1]  
+d[1][0] d[1][1] ... d[1][n-1]  
+...  
+d[n-1][0] d[n-1][1] ... d[n-1][n-1]  
 
 - `n` = number of cities
 - `d[i][j]` = distance from city `i` to city `j`  
@@ -41,8 +41,8 @@ d[n-1][0] d[n-1][1] ... d[n-1][n-1]
 
 ### Sample Input
 
-4
-0 10 15 20
-10 0 35 25
-15 35 0 30
-20 25 30 0
+4  
+0 10 15 20  
+10 0 35 25  
+15 35 0 30  
+20 25 30 0  
