@@ -4,7 +4,7 @@ This project provides a simple and efficient Python implementation of the **Trav
 
 ---
 
-## 📌 Problem Description
+##  Problem Description
 
 Given a set of cities and pairwise distances between them, the **Traveling Salesman Problem** seeks to find the shortest possible route that:
 
@@ -14,18 +14,7 @@ Given a set of cities and pairwise distances between them, the **Traveling Sales
 
 ---
 
-## 🧠 Algorithm
-
-This implementation uses the **Branch and Bound** technique to avoid brute-force enumeration:
-
-- **Branch**: recursively explore possible city sequences (DFS).
-- **Bound**: prune partial paths whose current cost already exceeds the best known solution.
-
-This significantly reduces the number of paths to evaluate compared to naive enumeration.
-
----
-
-## 🧪 Example Input / Output
+##  Example Input / Output
 
 ### Input Format
 
