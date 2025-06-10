@@ -43,4 +43,16 @@ d[n-1][0] d[n-1][1] ... d[n-1][n-1]
 This means the shortest route has cost 80 and visits cities in the order: 0 → 1 → 3 → 2 → 0.
 
 ---
+## 🛠 How to Run
+### 🔹 Requirements
+
+- Python 3.x  
+- No external libraries required
+
+### 🔹 Execution
+
+You can run the program directly in the terminal:
+
+```bash
+python tsp_branch_and_bound.py
 
